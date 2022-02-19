@@ -21,9 +21,9 @@ fun main(args: Array<String>) {
         if (word.equals("-1")){
             break
         }
-        //TODO change to use a string template:
+        // change to use a string template:
 
-        println(word + " has a value of" + scrabbleScore.scoreWord(word))
+        println("The word has a value of ${scrabbleScore.scoreWord(word)}")
 
 
     }
