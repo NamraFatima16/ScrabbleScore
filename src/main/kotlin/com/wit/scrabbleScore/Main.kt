@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
         }
         //TODO change to use a string template:
 
-        println(word + "has a value of" + scrabbleScore.scoreWord(word))
+        println(word + " has a value of" + scrabbleScore.scoreWord(word))
 
 
     }
