@@ -22,7 +22,8 @@ class ScrabbleScore {
         }
     }
 
-    fun letterValues() = """Letter                           Value
+    fun letterValues() = """
+           Letter                             Value
            A, E, I, O, U, L, N, R, S, T       1
            D, G                               2
            B, C, M, P                         3
